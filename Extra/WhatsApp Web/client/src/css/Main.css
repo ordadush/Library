@@ -1,0 +1,23 @@
+.sidebar {
+    width: 30%;
+    display: inline-block;
+    height: 100%;
+}
+
+.conversation-history {
+    height: 100%;
+    display: inline-block;
+}
+
+.no-conversation {
+    height: 100%;
+    display: inline-block;
+    background-image: url("../images/no-conversation.png");
+    background-size: contain;
+}
+
+.searched-messages {
+    width: 30%;
+    display: inline-block;
+    height: 100%;
+}

@@ -1,0 +1,90 @@
+.add-participants {
+    width: 100%;
+    display: flex;
+    height: 100%;
+    flex-direction: column;
+}
+
+.add-participants-header {
+    height: 12%;
+    background-color: #00bfa5;
+    color: #fff;
+    font-size: 19px;
+    font-weight: bold;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-end;
+    padding-bottom: 6px;
+    padding-right: 5px;
+}
+
+.add-participants-title {
+    padding-bottom: 13px;
+}
+
+.selected-participants {
+    display: flex;
+    flex-direction: row;
+    padding: 10px;
+    overflow-x: auto;
+    background-attachment: local, local, scroll, scroll;
+    height: 6%;
+    align-items: center;
+}
+
+.participant-chip {
+    padding: 4px;
+}
+
+.selected-participants::-webkit-scrollbar-track {
+    -webkit-box-shadow: inset 0 0 2px rgba(0, 0, 0, 0.3);
+    border-radius: 10px;
+}
+
+.selected-participants::-webkit-scrollbar {
+    width: 12px;
+    background-color: #fff;
+    height: 4px;
+}
+
+.selected-participants::-webkit-scrollbar-thumb {
+    border-radius: 10px;
+    -webkit-box-shadow: inset 0 0 2px rgba(0, 0, 0, 0.3);
+    background-color: #00bfa5;
+}
+
+.next-step {
+    height: 10%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #f6f6f6;
+}
+
+.users {
+    height: 66%;
+    overflow-y: auto;
+}
+
+.users::-webkit-scrollbar-track {
+    -webkit-box-shadow: inset 0 0 2px rgba(0, 0, 0, 0.3);
+    border-radius: 10px;
+}
+
+.users::-webkit-scrollbar {
+    width: 12px;
+    background-color: #fff;
+    height: 4px;
+}
+
+.users::-webkit-scrollbar-thumb {
+    border-radius: 10px;
+    -webkit-box-shadow: inset 0 0 2px rgba(0, 0, 0, 0.3);
+    background-color: #00bfa5;
+}
+
+.next-step-button {
+    color: white;
+    background-color: #09e85e;
+    border-radius: 50%;
+}

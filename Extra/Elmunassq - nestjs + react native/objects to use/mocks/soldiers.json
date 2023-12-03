@@ -1,0 +1,25 @@
+[
+	{
+		"id": 1,
+		"soldierId": 1000000,
+		"name": "מיכאל אלמליח",
+		"rank": {
+			"id": 14,
+			"value": "סרן"
+		},
+		"role": {
+			"id": 3,
+			"value": "ראש צוות"
+		},
+		"recruitmentDate": "01-01-1018",
+		"phone": "0505555555",
+		"email": "michael@mail.com",
+		"gender": {
+			"id": 2,
+			"value": "זכר"
+		},
+		"birthday": "01-01-1000",
+		"address": "ישראל",
+		"inclusiveGroupId": 3
+	}
+]
